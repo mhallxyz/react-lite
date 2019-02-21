@@ -12,10 +12,10 @@ body {
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 
 
   .testText {
-    flex: 1;
     text-align: center;
   }
 }
