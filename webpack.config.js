@@ -1,4 +1,5 @@
 import path from 'path';
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 
@@ -40,6 +41,7 @@ module.exports = {
     ]
   },
   plugins: [
+    new BundleAnalyzerPlugin(),
     new HtmlWebpackPlugin({
       template: path.join(__dirname,'src','index.html')
     })

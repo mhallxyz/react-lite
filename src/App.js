@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <p className="testText">React Lite</p>
+        <p className="testText">React Lite </p>
         <p>{this.props.test ? this.props.test.toString() : null}</p>
         <button onClick={() => this.props.changeTest("Working!")}>Test Button</button>
       </div>
