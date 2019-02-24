@@ -6,6 +6,18 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.FlexColumn {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.FlexRow {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
 .App {
   position: absolute;
   display: flex;

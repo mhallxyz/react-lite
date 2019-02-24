@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
 import {testAction} from './actions/testAction';
+import {FlexColumn, FlexRow} from './components/common/FlexLayout';
 
 class App extends Component {
 
